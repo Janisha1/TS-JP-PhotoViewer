@@ -1,9 +1,13 @@
 import './PhotoViewer.css';
 
-export function PhotoViewer() {
+interface PhotoViewerProps {
+  imageUrl?: string;
+}
+
+export function PhotoViewer({imageUrl}: PhotoViewerProps) {
   return (
     <div>
-      <img className="main-image" src="https://picsum.photos/id/237/600/400" alt="Image from Lorem Picsum" />
+      <img className="main-image" src={imageUrl} alt="Image from Lorem Picsum" />
     </div>
   )
 }

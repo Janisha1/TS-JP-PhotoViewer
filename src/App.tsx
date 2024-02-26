@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <h1>React Photo Viewer</h1>
-      <PhotoViewer/>
+      <PhotoViewer imageUrl={'https://picsum.photos/id/237/600/400'}/>
     </div>
   )
 }
