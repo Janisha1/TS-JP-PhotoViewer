@@ -1,0 +1,13 @@
+.img-thumbnail {
+  width: 12.5vw;
+  margin: 0.5rem;
+  border: none;
+}
+
+.img-thumbnail:hover {
+    border: solid blue;
+}
+
+.selected-img {
+  border: red;
+}
